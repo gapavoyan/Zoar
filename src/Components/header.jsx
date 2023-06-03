@@ -15,7 +15,7 @@ function Header() {
                     <nav>
                         <ul className='flex gap-[83px] ' >
                             {
-                                state.map((el) => <li key={el.id} className='hover:text-[#0073B6] text-[#AFAEB1] leading-[20px] '>{el.nav_items}</li>)
+                                state.map((el) => <li key={el.id} className='hover:text-[#0073B6] text-[#AFAEB1] leading-[20px] cursor-pointer'>{el.nav_items}</li>)
                             }
                         </ul>
                     </nav>

@@ -1,38 +1,33 @@
-import React, { useEffect, useState }  from 'react'
-import {Swiper, SwiperSlide} from "swiper/react"
-import { Pagination, Navigation } from "swiper";
+import React, { useEffect, useState } from 'react'
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Pagination, Navigation, Autoplay } from "swiper";
 import slierData from './dataBase/dataSlider';
 import "./swiper.css"
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 function Slider() {
-  const[dataSlider,setDateSlider] = useState([])
-  useEffect(()=>{
+  const [dataSlider, setDateSlider] = useState([])
+  useEffect(() => {
     setDateSlider(slierData)
-  },[])
+  }, [])
   return (
+    // setInterval(() => {
       <Swiper
-        pagination={{
-          type: "fraction",
-
-        }}
+        dir="rtl"
         navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper to-white"
+        autoplay={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Navigation, Pagination,Autoplay]}
+        className="mySwiper"
       >
         {
-          dataSlider.map((el)=> <SwiperSlide><img src={el.url}/></SwiperSlide>)
+          dataSlider.map((el) => <SwiperSlide key={el.id}><img src={el.url} /></SwiperSlide>)
         }
-        {/* <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
       </Swiper>
+    // }, 2000)
   )
 }
 
