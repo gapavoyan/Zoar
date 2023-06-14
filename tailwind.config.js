@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '600px',
+        'md': '1210px',
+        'lg': '1400px',
+        'xl': '1600px',
+      },
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ body {
   
   .swiper {
     width: 100%;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 145px);
   }
   .swiper-slide {
     text-align: center;

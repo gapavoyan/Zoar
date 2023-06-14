@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Navigation, Autoplay } from "swiper";
-import slierData from './dataBase/dataSlider';
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "./swiper.css"
-
+import slierData from '../dataBase/dataSlider';
+import "swiper/css"
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+import "../css/swiper.css"
+// import "swiper.css"
 function Slider() {
   const [dataSlider, setDateSlider] = useState([])
   useEffect(() => {
