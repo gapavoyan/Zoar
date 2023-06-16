@@ -6,10 +6,10 @@ import Slider from "./Components/sliders/slider"
 function App() {
   return (
     <>
-      <Header/>
-      <div className="h-auto relative">
+      <Header />
+      <div className="h-full relative">
         <Slider />
-      <ImageText/>
+        <ImageText />
       </div>
       {/*<PartsOfTheBuilding/> */}
     </>

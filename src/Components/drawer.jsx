@@ -7,7 +7,6 @@ function Drawer() {
     function openNav() {
         setDefaultWith(`${100}%`)
     }
-
     function closeNav() {
         setDefaultWith(0)
     }

@@ -6,7 +6,6 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import "../css/swiper.css"
-// import "swiper.css"
 function Slider() {
   const [dataSlider, setDateSlider] = useState([])
   useEffect(() => {
