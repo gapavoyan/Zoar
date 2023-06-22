@@ -1,7 +1,8 @@
-import Header from "./Components/layouts/header"
-import ImageText from "./Components/imageText"
-import PartsOfTheBuilding from "./Components/partsOfTheBuilding"
-import Slider from "./Components/sliders/slider"
+import Header from "./Components/layouts/header";
+import ImageText from "./Components/imageText";
+import PartsOfTheBuilding from "./Components/partsOfTheBuilding";
+import Slider from "./Components/sliders/slider";
+import SliderDiscription from "./Components/sliders/sliderDiscription";
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
         <Slider />
         <ImageText />
       </div>
-      {/*<PartsOfTheBuilding/> */}
+      <PartsOfTheBuilding />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

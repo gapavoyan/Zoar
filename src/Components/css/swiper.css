@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
   }
-  
   .swiper {
     width: 100%;
     height: calc(100vh - 145px);

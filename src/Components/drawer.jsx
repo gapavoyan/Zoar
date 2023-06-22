@@ -13,7 +13,6 @@ function Drawer() {
     useEffect(() => {
         setValue(dataHeader)
     }, [])
-    console.log(dataHeader);
     return (
         <div>
             <div style={{ width: `${defaultWith}` }} className="sidenav py-10">

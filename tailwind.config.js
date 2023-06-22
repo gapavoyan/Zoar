@@ -13,6 +13,9 @@ export default {
         'lg': '1400px',
         'xl': '1600px',
       },
+      fontFamily:{
+        sans:['Montserrat'],
+      }
     },
   },
   plugins: [],

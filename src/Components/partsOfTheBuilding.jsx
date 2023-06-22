@@ -1,16 +1,21 @@
-import React from 'react'
+import React from "react";
+import SliderDiscription from "./sliders/sliderDiscription";
 
 function PartsOfTheBuilding() {
-    return (
-        <div>
-            <div className='border-[black] mt-[160px] text-[40px]'>
-                <div className='flex justify-center'>
-                    <h1>ՇԵՆՔԻ Կառուցվածքը</h1>
-                </div>
-                <div></div>
-            </div>
+  return (
+    <div>
+      <div className="border-[black] mt-[160px]">
+        <div className="flex justify-center">
+          <h1 className="text-4xl text-[#002366] font-sans font-extrabold">
+            ՇԵՆՔԻ ԿԱՌՈՒՑՎԱԾՔԸ
+          </h1>
         </div>
-    )
+        <div>
+          <SliderDiscription />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default PartsOfTheBuilding
+export default PartsOfTheBuilding;
