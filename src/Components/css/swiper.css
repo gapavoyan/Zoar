@@ -2,9 +2,14 @@ body {
     margin: 0;
     padding: 0;
   }
-  .swiper {
+  .mainSlider{
     width: 100%;
     height: calc(100vh - 145px);
+
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
   }
   .swiper-slide {
     text-align: center;

@@ -10,9 +10,7 @@ function PartsOfTheBuilding() {
             ՇԵՆՔԻ ԿԱՌՈՒՑՎԱԾՔԸ
           </h1>
         </div>
-        <div>
-          <SliderDiscription />
-        </div>
+        <SliderDiscription />
       </div>
     </div>
   );

@@ -8,21 +8,23 @@ import "swiper/css/navigation";
 import "../css/swiper.css";
 function Slider() {
   return (
-    <Swiper
-      navigation={true}
-      autoplay={true}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Navigation, Pagination, Autoplay]}
-      className="mySwiper"
-    >
-      {slierData.map((el) => (
-        <SwiperSlide key={el.id}>
-          <img src={el.url} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="mainSlider">
+      <Swiper
+        navigation={true}
+        autoplay={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Navigation, Pagination, Autoplay]}
+        className="mySwiper"
+      >
+        {slierData.map((el) => (
+          <SwiperSlide key={el.id}>
+            <img src={el.url} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 }
 

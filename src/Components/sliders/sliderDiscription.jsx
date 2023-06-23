@@ -6,9 +6,6 @@ function SliderDiscription() {
   return (
     <div>
       <SliderStructure />
-      {/* {
-            descriptionSlider.map((el)=> <img key={el.id} src={el.urlSlider}/>)
-        } */}
     </div>
   );
 }
