@@ -3,6 +3,7 @@ import ImageText from "./Components/imageText";
 import PartsOfTheBuilding from "./Components/partsOfTheBuilding";
 import Slider from "./Components/sliders/slider";
 import SliderDiscription from "./Components/sliders/sliderDiscription";
+import BuildingDiscription from "./Components/buildingDiscription";
 
 function App() {
   return (
@@ -12,7 +13,12 @@ function App() {
         <Slider />
         <ImageText />
       </div>
-      <PartsOfTheBuilding />
+      <div>
+        <PartsOfTheBuilding />
+      </div>
+      <div>
+        <BuildingDiscription />
+      </div>
     </>
   );
 }
