@@ -1,9 +1,9 @@
 import Header from "./Components/layouts/header";
-import ImageText from "./Components/imageText";
-import PartsOfTheBuilding from "./Components/partsOfTheBuilding";
+import ImageText from "./parts/imageText";
+import PartsOfTheBuilding from "./parts/buildingDiscription/partsOfTheBuilding";
 import Slider from "./Components/sliders/slider";
-import SliderDiscription from "./Components/sliders/sliderDiscription";
-import BuildingDiscription from "./Components/buildingDiscription";
+import BuildingDiscription from "./parts/buildingDiscription/buildingDiscription";
+import Package from "./parts/package/package";
 
 function App() {
   return (
@@ -15,9 +15,8 @@ function App() {
       </div>
       <div>
         <PartsOfTheBuilding />
-      </div>
-      <div>
         <BuildingDiscription />
+        <Package />
       </div>
     </>
   );

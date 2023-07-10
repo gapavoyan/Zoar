@@ -1,8 +1,8 @@
 import React from "react";
-import descriptionSlider from "../Components/dataBase/buildingDiscription";
+import descriptionSlider from "../../Components/dataBase/buildingDiscription";
 function DiscriptionList() {
   return (
-    <div className="grid grid-cols-1 mt-[80px] md:grid-cols-2 px-[10.64vw]">
+    <div className="grid grid-cols-1 mt-[80px] md:grid-cols-2 px-[10.64vw] gap-4">
       <div className="flex items-center">
         <ul className="list-disc ">
           {descriptionSlider.map((el) => {

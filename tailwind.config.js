@@ -16,8 +16,9 @@ export default {
       fontFamily:{
         sans:['Montserrat'],
       }
+    }
+      
     },
-  },
   plugins: [],
 }
 

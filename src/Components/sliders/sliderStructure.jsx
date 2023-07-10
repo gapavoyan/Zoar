@@ -19,7 +19,7 @@ function SliderStructure() {
             >
               {images.map((image) => (
                 <SwiperSlide>
-                  <img src={image} alt="slider image" />
+                  <img src={image} key="id" alt="slider image" />
                 </SwiperSlide>
               ))}
             </Swiper>
