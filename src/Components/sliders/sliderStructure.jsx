@@ -8,7 +8,7 @@ import { Navigation, Autoplay } from "swiper";
 function SliderStructure() {
   return (
     <div className="grid grid-cols-1 pt-[75px] md:grid-cols-2 lg:pt-[145px] gap-4 px-[3.64vw]">
-      {descriptionSlider.map(({ images, slider_items }) => {
+      {descriptionSlider.map(({ images, slider_items, id }) => {
         return (
           <div className="relative">
             <Swiper
@@ -16,6 +16,7 @@ function SliderStructure() {
               modules={[Navigation, Autoplay]}
               autoplay={true}
               className="mySwiper"
+              key={id}
             >
               {images.map((image) => (
                 <SwiperSlide>

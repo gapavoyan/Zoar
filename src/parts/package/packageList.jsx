@@ -29,6 +29,7 @@ function PackageList() {
                 <li
                   dangerouslySetInnerHTML={{ __html: el }}
                   className="text-[#002366]"
+                  key={el}
                 />
               ))}
             </ul>
