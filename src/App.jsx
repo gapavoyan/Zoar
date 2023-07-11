@@ -4,6 +4,7 @@ import PartsOfTheBuilding from "./parts/buildingDiscription/partsOfTheBuilding";
 import Slider from "./Components/sliders/slider";
 import BuildingDiscription from "./parts/buildingDiscription/buildingDiscription";
 import Package from "./parts/package/package";
+import Plan from "./parts/plan/plan";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <BuildingDiscription />
         <Package />
       </div>
+      <Plan />
     </>
   );
 }

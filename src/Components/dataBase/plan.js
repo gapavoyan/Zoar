@@ -1,6 +1,7 @@
 const plan = [
     {
         id:1,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_9.png&w=1536&q=100",
         home:"Բնակարան - 51Մ2",
         corridor:"Միջանցք - 5,3Մ2",
         bedroom:"Ննջասենյակ - 14,3Մ2",
@@ -9,6 +10,7 @@ const plan = [
     },
     {
         id:2,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_2.png&w=640&q=100",
         home:"Բնակարան - 59Մ2",
         corridor:"Միջանցք - 5,3Մ2",
         bedroom:"Ննջասենյակ - 14,3Մ2",
@@ -17,6 +19,7 @@ const plan = [
     },
     {
         id:3,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_3.png&w=640&q=100",
         home:"Բնակարան - 62,5Մ2",
         corridor:"Միջանցք - 8,5Մ2",
         bedroom:"Ննջասենյակ - 11Մ2",
@@ -25,6 +28,7 @@ const plan = [
     },
     {
         id:4,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_4.png&w=640&q=100",
         home:"Բնակարան - 63,5Մ2",
         corridor:"Միջանցք - 8,5Մ2",
         bedroom:"Ննջասենյակ - 11,2",
@@ -34,6 +38,7 @@ const plan = [
     },
     {
         id:5,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_5.png&w=640&q=100",
         home:"Բնակարան - 53,9Մ2",
         corridor:"Միջանցք - 2,5Մ2",
         bedroom:"Ննջասենյակ - 11Մ2 11Մ2",
@@ -44,6 +49,7 @@ const plan = [
     },
     {
         id:6,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_6.png&w=640&q=100",
         home:"Բնակարան - 62,3Մ2",
         corridor:"Միջանցք - 6,2Մ2",
         bedroom:"Ննջասենյակ - 12,3Մ2",
@@ -54,6 +60,7 @@ const plan = [
     },
     {
         id:7,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_7.png&w=640&q=100",
         home:"Բնակարան - 62Մ2",
         corridor:"Միջանցք - 6,8Մ2",
         bedroom:"Ննջասենյակ - 16,3Մ2",
@@ -64,6 +71,7 @@ const plan = [
     },
     {
         id:8,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_8.png&w=640&q=100",
         home:"Բնակարան - 77Մ2",
         corridor:"Միջանցք - 9,6Մ2",
         bedroom:"Ննջասենյակ - 1 - 13Մ2",
@@ -74,6 +82,7 @@ const plan = [
     },
     {
         id:9,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_9.png&w=640&q=100",
         home:"Բնակարան - 112,8Մ2",
         corridor:"Միջանցք - 11Մ2",
         bedroom:"Ննջասենյակ - 1 - 14Մ2",
@@ -85,6 +94,7 @@ const plan = [
     },
     {
         id:10,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_10.png&w=640&q=100",
         home:"Բնակարան - 139Մ2",
         corridor:"Միջանցք - 9,2Մ2",
         bedroom:"Ննջասենյակ - 1 - 19Մ2",
@@ -97,6 +107,7 @@ const plan = [
     },
     {
         id:11,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_11.png&w=640&q=100",
         home:"Բնակարան - 119,4Մ2",
         corridor:"Միջանցք - 9Մ2",
         bedroom:"Ննջասենյակ - 1 - 17Մ2",
@@ -107,6 +118,7 @@ const plan = [
     },
     {
         id:12,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_12.png&w=640&q=100",
         home:"Բնակարան - 112,8Մ2",
         corridor:"Միջանցք - 11Մ2",
         bedroom:"Ննջասենյակ - 1 - 14Մ2",
@@ -118,6 +130,7 @@ const plan = [
     },
     {
         id:13,
+        link:"https://zoar.am/_vercel/image?url=/images/apartaments/apartament_zoom_13.png&w=640&q=100",
         home:"Բնակարան - 112,8Մ2",
         corridor:"Միջանցք - 11Մ2",
         bedroom:"Ննջասենյակ - 1 - 14Մ2",
