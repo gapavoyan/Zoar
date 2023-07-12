@@ -1,6 +1,5 @@
 import React from "react";
 import PlanList from "./planList";
-
 function Plan() {
   return (
     <div>
@@ -17,9 +16,10 @@ function Plan() {
             </p>
           </div>
         </div>
-        <div className="h-[240px] bg-[#002366]"></div>
-        <div>
-          <PlanList />
+        <div className="h-[240px] bg-[#002366]">
+          <div className="py-[10px] px-[200px]">
+            <PlanList />
+          </div>
         </div>
       </div>
     </div>
