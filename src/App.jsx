@@ -6,6 +6,7 @@ import BuildingDiscription from "./parts/buildingDiscription/buildingDiscription
 import Package from "./parts/package/package";
 import Plan from "./parts/plan/plan";
 import Map from "./parts/map/map";
+import Footer from "./Components/layouts/footer";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
       </div>
       {/* <Plan /> */}
       <Map />
+      <Footer />
     </>
   );
 }
