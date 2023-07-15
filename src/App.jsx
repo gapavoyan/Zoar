@@ -5,7 +5,7 @@ import Slider from "./Components/sliders/slider";
 import BuildingDiscription from "./parts/buildingDiscription/buildingDiscription";
 import Package from "./parts/package/package";
 import Plan from "./parts/plan/plan";
-
+import Map from "./parts/map/map";
 function App() {
   return (
     <>
@@ -19,7 +19,8 @@ function App() {
         <BuildingDiscription />
         <Package />
       </div>
-      <Plan />
+      {/* <Plan /> */}
+      <Map />
     </>
   );
 }
