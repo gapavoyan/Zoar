@@ -16,13 +16,21 @@ function App() {
         <ImageText />
       </div>
       <div>
-        <PartsOfTheBuilding />
-        <BuildingDiscription />
-        <Package />
+        <div>
+          <PartsOfTheBuilding />
+        </div>
+        <div id="description">
+          <BuildingDiscription />
+        </div>
+        <div id="package">
+          <Package />
+        </div>
       </div>
       {/* <Plan /> */}
-      <Map />
-      <Footer />
+      <div>
+        <Map />
+        <Footer />
+      </div>
     </>
   );
 }

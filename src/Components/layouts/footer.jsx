@@ -1,9 +1,8 @@
 import React from "react";
-
 function Footer() {
   return (
-    <div>
-      <footer className=" items-center bg-[#002366]">
+    <div id="footer">
+      <footer className=" items-center bg-[#002366] ">
         <div className="px-[10vw] py-[4vw] flex justify-between ">
           <div>
             <img
@@ -21,10 +20,10 @@ function Footer() {
             >
               +374 41 22 12 05
             </a>
-            <a className="text-white font-normal max-mijin:text-[14px]">
+            <a className="text-white font-normal max-mijin:text-[13px]">
               root.construct.armenia@gmail.com
             </a>
-            <div className="flex  justify-end gap-x-2">
+            <div className="flex  justify-end gap-x-2 pt-1 ">
               <i className="fa-brands fa-facebook-f w-[20px] h-[20px] text-white"></i>
               <i className="fa-brands fa-instagram w-[20px] h-[20px] text-white"></i>
               <i className="fa-solid fa-globe w-[20px] h-[20px] text-white"></i>

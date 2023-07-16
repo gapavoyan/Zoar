@@ -25,7 +25,7 @@ function Header() {
                     key={el.id}
                     className="hover:text-[#0073B6] text-[#AFAEB1] leading-[20px] cursor-pointer"
                   >
-                    {el.nav_items}
+                    <a href={`#${el.link}`}>{el.nav_items}</a>
                   </li>
                 ))}
               </ul>

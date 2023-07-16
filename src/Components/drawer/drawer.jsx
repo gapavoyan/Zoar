@@ -26,11 +26,10 @@ function Drawer() {
           <nav className="flex flex-col space-y-12">
             {dataHeader.map((el) => {
               return (
-                <li
-                  key={el.id}
-                  className="text-[#AFAEB1] leading-[20px] cursor-pointer"
-                >
-                  {el.nav_items}
+                <li key={el.id} onClick={closeNav}>
+                  <a className="link" href={`#${el.link}`}>
+                    {el.nav_items}
+                  </a>
                 </li>
               );
             })}

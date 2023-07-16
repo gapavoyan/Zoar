@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../public/fonts/fonter.am_montserrat-armenian/Montserratarm-Regular.otf');
+}
+body{
+    font-family: Montserrat;
+}
+html{
+    scroll-behavior: smooth;
+}
+.link{
+    color:aqua
+}
