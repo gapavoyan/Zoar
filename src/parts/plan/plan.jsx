@@ -16,10 +16,9 @@ function Plan() {
             </p>
           </div>
         </div>
-        <div className="h-[240px] bg-[#002366]">
-          <div className="py-[10px] px-[200px]">
-            <PlanList />
-          </div>
+        <div className="overflow-hidden">
+          <div className="bg-[#002366] w-full h-[180px] md:h-[240px]"></div>
+          <PlanList />
         </div>
       </div>
     </div>

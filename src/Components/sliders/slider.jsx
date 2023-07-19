@@ -10,8 +10,8 @@ function Slider() {
   return (
     <div className="mainSlider">
       <Swiper
-        navigation={true}
-        autoplay={true}
+        navigation
+        autoplay
         pagination={{
           clickable: true,
         }}

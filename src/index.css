@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url('../public/fonts/fonter.am_montserrat-armenian/Montserratarm-Regular.otf');
+    src: url('../fonts/fonter.am_montserrat-armenian/Montserratarm-Regular.otf');
 }
 body{
     font-family: Montserrat;
@@ -14,4 +14,8 @@ html{
 }
 .link{
     color:aqua
+}
+.content{
+    margin: auto;
+    margin-top: -120px;
 }

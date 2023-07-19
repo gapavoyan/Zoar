@@ -5,15 +5,13 @@ function DiscriptionList() {
     <div className="grid grid-cols-1 mt-[80px] md:grid-cols-2 px-[10.64vw] gap-4">
       <div className="flex items-center">
         <ul className="list-disc ">
-          {descriptionSlider.map((el) => {
-            return (
-              <li
-                className="list-inside text-[#002366]"
-                key={el.id}
-                dangerouslySetInnerHTML={{ __html: el.list_item }}
-              />
-            );
-          })}
+          {descriptionSlider.map((el) => (
+            <li
+              className="list-inside text-[#002366]"
+              key={el.id}
+              dangerouslySetInnerHTML={{ __html: el.list_item }}
+            />
+          ))}
         </ul>
       </div>
       <div>

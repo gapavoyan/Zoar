@@ -12,9 +12,9 @@ function SliderStructure() {
         return (
           <div className="relative">
             <Swiper
-              navigation={true}
+              navigation
               modules={[Navigation, Autoplay]}
-              autoplay={true}
+              autoplay
               className="mySwiper"
               key={id}
             >

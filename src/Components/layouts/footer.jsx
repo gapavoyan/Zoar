@@ -24,9 +24,9 @@ function Footer() {
               root.construct.armenia@gmail.com
             </a>
             <div className="flex  justify-end gap-x-2 pt-1 ">
-              <i className="fa-brands fa-facebook-f w-[20px] h-[20px] text-white"></i>
-              <i className="fa-brands fa-instagram w-[20px] h-[20px] text-white"></i>
-              <i className="fa-solid fa-globe w-[20px] h-[20px] text-white"></i>
+              <i className="fa-brands fa-facebook-f w-[20px] h-[20px] text-white" />
+              <i className="fa-brands fa-instagram w-[20px] h-[20px] text-white" />
+              <i className="fa-solid fa-globe w-[20px] h-[20px] text-white" />
             </div>
           </div>
         </div>
