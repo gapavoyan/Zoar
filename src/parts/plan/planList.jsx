@@ -11,7 +11,7 @@ function PlanList() {
       className="content bg-[white] shadow-[0px,3px,20px,3px,rgb(0,0,0,0.5)] w-[81vw] 
       z-10 flex max-size:flex-col max-size:items-center max-size:overflow-hidden"
     >
-      <div className="grid grid-cols-3 gap-2 px-[60px] py-[30px] shrink-0 overflow-hidden max-size:flex max-size:overflow-scroll max-size:w-[500px] ">
+      <div className="contentData grid grid-cols-3 gap-2 px-[60px] py-[30px] shrink-0 overflow-hidden max-size:flex max-size:overflow-scroll max-size:w-[500px] ">
         {plan.map((item) => (
           <div
             key={`plan-${item.id}`}
@@ -41,7 +41,12 @@ function PlanList() {
         <div>
           {Object.keys(activePlan).map((key) =>
             activePlan[key] && "link" != key ? (
-              <p className="max-mijin:text-[14px]">{activePlan[key]}</p>
+              <p
+                className="max-mijin:text-[14px]"
+                key={`plan-list-item-${key}`}
+              >
+                {activePlan[key]}
+              </p>
             ) : null
           )}
         </div>

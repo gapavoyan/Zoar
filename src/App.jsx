@@ -27,12 +27,16 @@ function App() {
           <Package />
         </div>
       </div>
-      <div>
+      <div id="plan">
         <Plan />
       </div>
       <div>
-        <Map />
-        <Footer />
+        <div>
+          <Map />
+        </div>
+        <div id="footer">
+          <Footer />
+        </div>
       </div>
     </>
   );

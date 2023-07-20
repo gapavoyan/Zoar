@@ -10,16 +10,15 @@ function SliderStructure() {
     <div className="grid grid-cols-1 pt-[75px] md:grid-cols-2 lg:pt-[145px] gap-4 px-[3.64vw]">
       {descriptionSlider.map(({ images, slider_items, id }) => {
         return (
-          <div className="relative">
+          <div className="relative" key={`slider-structure-item-${id}`}>
             <Swiper
               navigation
               modules={[Navigation, Autoplay]}
               autoplay
               className="mySwiper"
-              key={id}
             >
               {images.map((image) => (
-                <SwiperSlide>
+                <SwiperSlide key={`slider-structure-item-${id}-image-${image}`}>
                   <img src={image} key="id" alt="slider image" />
                 </SwiperSlide>
               ))}
